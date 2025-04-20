@@ -1,0 +1,2 @@
+HumanMessage(content="Translate this 'Who've prays for my suffering'.")
+AIMessage(content="Mere Dard ki jo Dua kry)
