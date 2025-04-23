@@ -1,10 +1,10 @@
-# RunnablePassthrough simply returns the input as output. Useful for displaying the input if it comes from a chain.
+# RunnableLambda converts a python function into a Runnable
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
-from langchain.schema.runnable import RunnableSequence, RunnableParallel, RunnablePassthrough
+from langchain.schema.runnable import RunnableSequence, RunnableParallel, RunnablePassthrough, RunnableLambda
 
 load_dotenv()
 
@@ -17,16 +17,14 @@ model = ChatOpenAI(model="gpt-4o-mini")
 
 parser = StrOutputParser()
 
-prompt2 = PromptTemplate(
-    template='Explain the following joke in 2 lines - {text}',
-    input_variables=['text']
-)
+def word_count(text):
+    return len(text.split())
 
 joke_generator_chain = RunnableSequence(prompt1, model, parser)
 
 parrallel_chain = RunnableParallel({
     'joke': RunnablePassthrough(),
-    'explanation': RunnableSequence(prompt2, model, parser)
+    'word count': RunnableLambda(word_count)
 })
 
 final_chain = RunnableSequence(joke_generator_chain, parrallel_chain)

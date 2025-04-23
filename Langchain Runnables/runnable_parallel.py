@@ -1,3 +1,5 @@
+# RunnableParallel connects two or more runnables in parallel and returns the results as a dictionary.
+
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser

@@ -1,3 +1,5 @@
+# RunnableSequence chains the operations into a sequence, where the output of one operation is passed as input to the next.
+
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
