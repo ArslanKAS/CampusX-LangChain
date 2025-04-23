@@ -1,4 +1,4 @@
-# CampusX - LangChain
+# CampusX - LangChain Course
 
 * Langchain Models
 * Langchain Prompts
