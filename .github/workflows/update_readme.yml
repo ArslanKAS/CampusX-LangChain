@@ -2,8 +2,8 @@ name: Update README daily
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # every day at 00:00 UTC
-  workflow_dispatch:  # also allow manual trigger
+    - cron: '0 3 * * *'  # 8:00 AM Pakistan Time
+  workflow_dispatch:  # manual trigger
 
 jobs:
   update-readme:
@@ -16,11 +16,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'  # any latest version
+          python-version: '3.x'
 
       - name: Run Python script
         run: |
           python update_readme.py
+
+      - name: Force a Tiny Change
+        run: |
+          echo "<!-- Updated on $(date) -->" >> README.md
 
       - name: Commit and Push Changes
         run: |
