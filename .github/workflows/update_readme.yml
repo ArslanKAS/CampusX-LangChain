@@ -27,7 +27,7 @@ jobs:
 
       - name: Always force update by appending timestamp
         run: |
-          echo \"<!-- Updated on $(date) -->\" >> README.md
+          echo '<!-- Updated on $(date) -->' >> README.md
 
       - name: Commit and Push Changes
         run: |
