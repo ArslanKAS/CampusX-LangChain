@@ -1,0 +1,31 @@
+name: Update README daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at 00:00 UTC
+  workflow_dispatch:  # also allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'  # any latest version
+
+      - name: Run Python script
+        run: |
+          python update_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README.md daily ✨' || echo \"No changes to commit\"
+          git push
