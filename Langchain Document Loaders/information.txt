@@ -1,0 +1,4 @@
+TextLoader: Loads plain text files into LangChain Document objects, optionally detecting encoding and supporting lazy loading. 
+PyPDFLoader: Extracts text from PDF files into Document objects, supporting both per-page and full-document modes.
+WebBaseLoader: Fetches and parses text content from HTML web pages into Document objects using BeautifulSoup.
+CSVLoader: Converts each row of a CSV file into a Document object, with options to specify source and metadata columns.
