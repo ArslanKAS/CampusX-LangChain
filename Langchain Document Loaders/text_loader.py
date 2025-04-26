@@ -11,7 +11,7 @@ loader = TextLoader("Langchain Document Loaders/information.txt")
 
 docs = loader.load()
 
-print(f"Number of documents loaded: {len(docs)}")  # Print the number of documents loaded
+print(f"Number of documents: {len(docs)}")  # Print the number of documents loaded
 print(f"Document type: {type(docs)}")  # Print the type of the documents loaded
 print(f"Document type: {type(docs[0])}")  # Print the type of the first document
 print(docs[0].page_content)  # Print the content of the first document
