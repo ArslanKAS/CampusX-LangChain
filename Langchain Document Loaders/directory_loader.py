@@ -7,7 +7,9 @@ loader = DirectoryLoader(
     glob="**/*.pdf",
     loader_cls=PyPDFLoader)
 
-docs = loader.load()
+docs = loader.load() # Use load to load all documents at once but it takes time if there are too many documents
+
+# docs = loader.lazy_load()  # Use lazy loading if you want to load too many documents at once
 
 print(f"Number of documents: {len(docs)}")  # Print the number of documents loaded
 print(f"Document type: {type(docs)}")  # Print the type of the documents loaded
