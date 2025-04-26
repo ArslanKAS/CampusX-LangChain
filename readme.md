@@ -1,2 +1,8 @@
+# CampusX - LangChain Course
 
-✨ 2025-04-26<!-- Updated on $(date) -->
+* Langchain Models
+* Langchain Prompts
+* Langchain Structured Outputs
+* Langchain Output Parsers
+* Langchain Chains
+* LangChain Runnables
