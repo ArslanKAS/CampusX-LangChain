@@ -6,3 +6,4 @@ Langchain Output Parsers/.env
 Langchain Chains/.env
 Langchain Runnables/.env
 Langchain Document Loaders/.env
+Langchain Text Splitters/.env
