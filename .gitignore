@@ -8,3 +8,4 @@ Langchain Runnables/.env
 Langchain Document Loaders/.env
 Langchain Text Splitters/.env
 Langchain Vector Stores/.env
+Langchain Retrievers/.env
