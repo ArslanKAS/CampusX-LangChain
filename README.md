@@ -1,4 +1,5 @@
 # CampusX - LangChain Course
+![Image](https://github.com/ArslanKAS/CampusX-LangChain/blob/main/CampusX%20-%20LangChain.png)
 
 * Langchain Models
 * Langchain Prompts
