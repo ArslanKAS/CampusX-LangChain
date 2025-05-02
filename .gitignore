@@ -9,3 +9,4 @@ Langchain Document Loaders/.env
 Langchain Text Splitters/.env
 Langchain Vector Stores/.env
 Langchain Retrievers/.env
+Langchain RAG/.env
