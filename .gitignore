@@ -11,3 +11,4 @@ Langchain Vector Stores/.env
 Langchain Retrievers/.env
 Langchain RAG/.env
 Langchain Tools/.env
+Langchain Agents/.env
