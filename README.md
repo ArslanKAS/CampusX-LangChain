@@ -1,39 +1,22 @@
 # CampusX - LangChain Course
 ![Image](https://github.com/ArslanKAS/CampusX-LangChain/blob/main/CampusX%20-%20LangChain.png)
 
-* Langchain Models
-* Langchain Prompts
-* Langchain Structured Outputs
-* Langchain Output Parsers
-* Langchain Chains
-* LangChain Runnables
+This repository is a hands-on collection of LangChain modules developed while learning Generative AI through the CampusX course.
 
-✨ 2025-04-26<!-- Updated on $(date) -->
+## 📂 Repository Structure
 
-✨ 2025-04-27<!-- Updated on $(date) -->
+- **Langchain Chains** – Chain implementations for LLM workflows
+- **Langchain Document Loaders** – Loaders like CSVLoader for data ingestion
+- **Langchain Models** – Integrated LLM models
+- **Langchain Output Parsers** – Tools for structured output formatting
+- **Langchain Prompts** – Prompt templates and dynamic prompts
+- **Langchain RAG** – Retrieval-Augmented Generation with Streamlit
+- **Langchain Retrievers** – Embedding-based document retrievers
+- **Langchain Runnables** – Modular runnable components
+- **Langchain Structured Outputs** – Enforcing structured responses
+- **Langchain Text Splitters** – Chunking logic for long texts
+- **Langchain Tools** – Custom tools like a Currency Converter
+- **Langchain Vector Stores** – Vector DB integrations for semantic search
 
-✨ 2025-04-28<!-- Updated on $(date) -->
-
-✨ 2025-04-29<!-- Updated on $(date) -->
-
-✨ 2025-04-29<!-- Updated on $(date) -->
-
-✨ 2025-04-30<!-- Updated on $(date) -->
-
-✨ 2025-05-01<!-- Updated on $(date) -->
-
-✨ 2025-05-02<!-- Updated on $(date) -->
-
-✨ 2025-05-03<!-- Updated on $(date) -->
-
-✨ 2025-05-04<!-- Updated on $(date) -->
-
-✨ 2025-05-05<!-- Updated on $(date) -->
-
-✨ 2025-05-06<!-- Updated on $(date) -->
-
-✨ 2025-05-07<!-- Updated on $(date) -->
-
-✨ 2025-05-08<!-- Updated on $(date) -->
-
-✨ 2025-05-09<!-- Updated on $(date) -->
+## 🎯 Goal
+To gain practical experience with LangChain components and workflows, including prompt engineering, RAG pipelines, and vector search.
