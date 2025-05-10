@@ -12,3 +12,6 @@ Langchain Retrievers/.env
 Langchain RAG/.env
 Langchain Tools/.env
 Langchain Agents/.env
+Langchain MCP/.env
+MCP/.env
+Langchain MCP 2/.env
