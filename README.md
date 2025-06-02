@@ -43,3 +43,5 @@ To gain practical experience with LangChain components and workflows, including 
 ✨ 2025-05-31<!-- Updated on $(date) -->
 
 ✨ 2025-06-01<!-- Updated on $(date) -->
+
+✨ 2025-06-02<!-- Updated on $(date) -->
