@@ -23,3 +23,5 @@ This repository is a hands-on collection of LangChain modules developed while le
 
 ## 🎯 Goal
 To gain practical experience with LangChain components and workflows, including prompt engineering, RAG pipelines, and vector search.
+
+✨ 2025-08-27<!-- Updated on $(date) -->
