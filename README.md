@@ -25,3 +25,5 @@ This repository is a hands-on collection of LangChain modules developed while le
 To gain practical experience with LangChain components and workflows, including prompt engineering, RAG pipelines, and vector search.
 
 ✨ 2025-08-27<!-- Updated on $(date) -->
+
+✨ 2025-08-28<!-- Updated on $(date) -->
